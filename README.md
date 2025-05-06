@@ -69,11 +69,10 @@ https://resourcewatch.org/data/explore/bio040-Protected-Area-Connectivity
 | `socioeconomic_score`         | Gelir düzeyi ve sosyal seviye        | `geopandas`, `socioeconomic_data`  | `point: list[lon, lat]`                | float (skor)                     | Sayısal    |
 
 
-#UI Screenshots
+### UI Screenshots
 
+<img src="https://github.com/user-attachments/assets/3be7a8f2-254b-4a57-a4eb-4675f98d3dc9" style="width:60%;"></img>
+<img src="https://github.com/user-attachments/assets/6198cd3c-d687-4c61-965a-ab59694456af" style="width:60%;"></img>
+<img src="https://github.com/user-attachments/assets/8cc52d9a-5ac3-454e-8062-bf71d222a4eb" style="width:60%;"></img>
+<img src="https://github.com/user-attachments/assets/ab8e8418-bcd0-4ba3-aca3-5613ddd9b105" style="width:60%;"></img>
 
-
-![WhatsApp Görsel 2025-05-06 saat 17 44 06_eb0b8b84](https://github.com/user-attachments/assets/3be7a8f2-254b-4a57-a4eb-4675f98d3dc9)
-![WhatsApp Görsel 2025-05-06 saat 17 44 24_a9b234ca](https://github.com/user-attachments/assets/6198cd3c-d687-4c61-965a-ab59694456af)
-![WhatsApp Görsel 2025-05-06 saat 17 44 36_08df46c0](https://github.com/user-attachments/assets/8cc52d9a-5ac3-454e-8062-bf71d222a4eb)
-![WhatsApp Görsel 2025-05-06 saat 17 46 04_ffc9ff4b](https://github.com/user-attachments/assets/ab8e8418-bcd0-4ba3-aca3-5613ddd9b105)
