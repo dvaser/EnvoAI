@@ -8,9 +8,15 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         
+        # Logo
+        self.icon = QtWidgets.QLabel(self.centralwidget)
+        self.icon.setGeometry(QtCore.QRect(20, 5, 80, 80))  # Genişlik ve yükseklik artırıldı
+        self.icon.setPixmap(QtGui.QPixmap("ui\\../../Envo AI/icons/ChatGPT Image 4 May 2025 17_56_51.png"))
+        self.icon.setScaledContents(True)
+
         # Başlık
         self.header = QtWidgets.QLabel(self.centralwidget)
-        self.header.setGeometry(QtCore.QRect(80, 10, 111, 41))
+        self.header.setGeometry(QtCore.QRect(110, 20, 180, 41))  # Sol kenardan biraz sağa alındı
         palette = QtGui.QPalette()
         brush = QtGui.QBrush(QtGui.QColor(34, 104, 64))
         brush.setStyle(QtCore.Qt.SolidPattern)
@@ -27,15 +33,15 @@ class Ui_MainWindow(object):
 
         # Şehir, ilçe, mahalle seçimleri
         self.combo_il = QtWidgets.QComboBox(self.centralwidget)
-        self.combo_il.setGeometry(QtCore.QRect(20, 60, 221, 28))
+        self.combo_il.setGeometry(QtCore.QRect(20, 100, 221, 28))
         self.combo_ilce = QtWidgets.QComboBox(self.centralwidget)
-        self.combo_ilce.setGeometry(QtCore.QRect(20, 100, 221, 28))
+        self.combo_ilce.setGeometry(QtCore.QRect(20, 140, 221, 28))
         self.combo_mahalle = QtWidgets.QComboBox(self.centralwidget)
-        self.combo_mahalle.setGeometry(QtCore.QRect(20, 140, 221, 28))
+        self.combo_mahalle.setGeometry(QtCore.QRect(20, 180, 221, 28))
 
         # Analiz butonu
         self.pushButton_analiz = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_analiz.setGeometry(QtCore.QRect(59, 180, 181, 32))
+        self.pushButton_analiz.setGeometry(QtCore.QRect(59, 220, 181, 32))
         font = QtGui.QFont()
         font.setFamily("Segoe UI")
         font.setPointSize(12)
@@ -45,21 +51,15 @@ class Ui_MainWindow(object):
 
         # Arama ikonu
         self.pushButton_ara = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_ara.setGeometry(QtCore.QRect(20, 180, 32, 32))
+        self.pushButton_ara.setGeometry(QtCore.QRect(20, 220, 32, 32))
         self.pushButton_ara.setText("")
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap("ui\\icons/pushButton_ara.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_ara.setIcon(icon)
 
-        # Logo
-        self.icon = QtWidgets.QLabel(self.centralwidget)
-        self.icon.setGeometry(QtCore.QRect(20, 0, 60, 60))
-        self.icon.setPixmap(QtGui.QPixmap("ui\\../../Envo AI/icons/ChatGPT Image 4 May 2025 17_56_51.png"))
-        self.icon.setScaledContents(True)
-
         # Harita
         self.widget_harita = QtWebEngineWidgets.QWebEngineView(self.centralwidget)
-        self.widget_harita.setGeometry(QtCore.QRect(260, 9, 531, 541))
+        self.widget_harita.setGeometry(QtCore.QRect(260, 9, 531, 541))  # Genişlik sabit, konum uygun
 
         # Görsel alanlar
         self.label_visual1 = QtWidgets.QLabel(self.centralwidget)
@@ -81,7 +81,7 @@ class Ui_MainWindow(object):
 
         # Skor alanı
         self.textBrowser_skor = QtWidgets.QTextBrowser(self.centralwidget)
-        self.textBrowser_skor.setGeometry(QtCore.QRect(80, 220, 100, 80))
+        self.textBrowser_skor.setGeometry(QtCore.QRect(80, 240, 100, 80))
         palette = QtGui.QPalette()
         brush = QtGui.QBrush(QtGui.QColor(34, 104, 64))
         palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.WindowText, brush)
