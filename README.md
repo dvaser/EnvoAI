@@ -4,7 +4,6 @@
 <img src="https://github.com/user-attachments/assets/029ee331-3666-4659-af6f-5fcab7433d6e" style="width:20%;"></img>
 <img src="https://github.com/user-attachments/assets/c3a7df4d-c12b-41bf-b98c-f24640429ba9" style="width:20%;"></img>
 
-
 ## 🎯 Project Objective
 An artificial intelligence-supported sustainability project that analyzes the potential impacts of public/private sector projects on nature according to location, sector, scale and environmental parameters.
 
@@ -113,8 +112,8 @@ https://resourcewatch.org/data/explore/bio040-Protected-Area-Connectivity
 
 ### UI Views
 
-<img src="https://github.com/user-attachments/assets/3be7a8f2-254b-4a57-a4eb-4675f98d3dc9" style="width:60%;"></img>
-<img src="https://github.com/user-attachments/assets/6198cd3c-d687-4c61-965a-ab59694456af" style="width:60%;"></img>
-<img src="https://github.com/user-attachments/assets/8cc52d9a-5ac3-454e-8062-bf71d222a4eb" style="width:60%;"></img>
-<img src="https://github.com/user-attachments/assets/ab8e8418-bcd0-4ba3-aca3-5613ddd9b105" style="width:60%;"></img>
+<img src="https://github.com/user-attachments/assets/3be7a8f2-254b-4a57-a4eb-4675f98d3dc9" style="width:60%;"></img> <br>
+<img src="https://github.com/user-attachments/assets/6198cd3c-d687-4c61-965a-ab59694456af" style="width:60%;"></img> <br>
+<img src="https://github.com/user-attachments/assets/8cc52d9a-5ac3-454e-8062-bf71d222a4eb" style="width:60%;"></img> <br>
+<img src="https://github.com/user-attachments/assets/ab8e8418-bcd0-4ba3-aca3-5613ddd9b105" style="width:60%;"></img> 
 
