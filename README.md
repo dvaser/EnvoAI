@@ -10,6 +10,35 @@ An artificial intelligence-supported sustainability project that analyzes the po
 
 <img src="https://github.com/user-attachments/assets/d3486592-162e-4399-b6bb-7160d0dd8071" style="width:75%;"></img>
 
+### App Summary
+> TR
+```
+Projede yer verdiğimiz özellik değerleri ile yapılan bu çalışma, mevcut konum özelinde çevresel faktörlerimizi değerlendiriyor.
+
+Mesela bir inşaat yapmak istiyoruz ve bir yapı oluşturmak için seçeceğimiz konum ne kadar elverişli? Bu sadece bir inşaat yapısı olmak zorunda değil. Mesela bir ulaşım ihtiyacı olan metro hattı da olabilir. Ya da sadece konumunuzdaki mevcut çevre değerlerinizi merak etmiş de olabilirsiniz.
+
+Projeyi özellik değeri üzerinden anlatmak gerekirse 'fault_line_distance' ve poi_density ile ele alabiliriz. 'fault_line_distance' bizim için fay hattına olan uzaklığımızı ifade ediyor. Ve konumumuzun en yakın fay hattına uzaklığını dönüyor. 'poi_density' ise bize mevcut konumun çevresindeki yapıları sayan bir özellik değeri. Eczane, market, ofis gibi veriler ile bize bir gelişmişlik seviyesi sunuyor.
+
+Bu ve bunun gibi özellikler ile bize konumumuzun uygunluğunu ve makine öğrenimi ile eğitilmiş bu özellik değerleri üzerinden bir score döndürüyor.
+
+Ne kadar da sürdürülebilir bir proje.
+```
+
+> ENG
+```
+This study, conducted with the property values we include in the project, evaluates our environmental factors specific to the current location.
+
+For example, we want to build a building and how favorable is the location we choose to create a structure? It doesn't have to be just a construction structure. For example, it could be a metro line, which is a transportation need. Or you may just be curious about the current environmental values in your location.
+
+If we need to explain the project through the property value, we can handle it with 'fault_line_distance' and poi_density. 'fault_line_distance' is our distance to the fault line. And it returns the distance of our location to the nearest fault line. 'poi_density' is a feature value that counts the structures around the current location. It gives us a level of development with data such as pharmacies, markets, offices, etc.
+
+With these and similar features, it returns us the suitability of our location and a score based on these feature values trained with machine learning.
+
+What a sustainable project.
+
+Translated with DeepL.com (free version)
+```
+
 ### Project Library
 ```
 pip install geopandas
@@ -69,7 +98,7 @@ https://resourcewatch.org/data/explore/bio040-Protected-Area-Connectivity
 | `socioeconomic_score`         | Gelir düzeyi ve sosyal seviye        | `geopandas`, `socioeconomic_data`  | `point: list[lon, lat]`                | float (skor)                     | Sayısal    |
 
 
-### UI Screenshots
+### UI Views
 
 <img src="https://github.com/user-attachments/assets/3be7a8f2-254b-4a57-a4eb-4675f98d3dc9" style="width:60%;"></img>
 <img src="https://github.com/user-attachments/assets/6198cd3c-d687-4c61-965a-ab59694456af" style="width:60%;"></img>
