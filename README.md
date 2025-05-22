@@ -1,4 +1,4 @@
-# 🌍 EnvoAI – AI-Powered Environmental Suitability Analysis
+# 🌍 EnvoAI | AI-Powered Environmental Suitability Analysis
 
 <img src="https://github.com/user-attachments/assets/ab2917ef-03e0-40b4-a74e-0bfb3237709d" style="width:20%;"></img>
 <img src="https://github.com/user-attachments/assets/029ee331-3666-4659-af6f-5fcab7433d6e" style="width:20%;"></img>
